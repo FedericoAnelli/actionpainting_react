@@ -127,7 +127,22 @@
 
     .bottomNavUl{
         padding: 0;
+        align-items: start;
     }
+
+    li{
+        width: 100%;
+        padding-top: 15%;
+        transition: all 0.5s;
+    }
+
+    li:hover{
+        border-top: black 1px solid;
+    }
+
+    .bottomNavTexts:hover{
+        background-color: transparent;
+     }
 
     .mobileLogos{
         display: flex;
