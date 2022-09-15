@@ -67,3 +67,66 @@
     height: 100%;
     width: 100%;
 }
+
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+
+    /* General container */
+    .aboutUs{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    /* Text area */
+    .textContainer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        width: 100%;
+        text-align: left;
+        font-family: 'Outfit', 'sans-serif';
+        font-size: large;
+    }
+
+    .yellowDivisionLine{
+        height: 1%;
+        width: 30%;
+        background-color:  rgb(241, 199, 68);
+        margin: 5% 5% 5% 0;
+    }
+
+    .bottomBox{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        border-bottom: rgb(50, 48, 49) solid 20px;
+        align-items: center;
+        justify-content: center;
+        line-height: 0.59;
+    }
+
+    .years{
+        color: rgb(241, 199, 68);
+        font-size: 15vh;
+        font-weight: 900;
+    }
+
+    .experience{
+        font-size: xx-large;
+        line-height: 1;
+    }
+
+    /* Building images */
+    .building1{
+        display: none;
+    }
+
+    .building2{
+        display: none;
+    }
+    
+}
