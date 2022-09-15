@@ -4,11 +4,32 @@
     grid-template-rows: 1fr .5fr;
     height: 100%;
     width: 100%;
-    justify-items: start;
     padding: 1% 5% 5% 5%;
     row-gap: 5%;
     font-family: 'Outfit', 'sans-serif';
 }
+
+/* Gallery header */
+.galleryHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(50, 48, 49);
+}
+
+.arrowStyling{
+    font-weight: bold;
+    margin: 0 2% 0 2%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.arrowStyling:hover{
+    color: rgb(151, 145, 148);
+}
+
 
 /* Image Gallery */
 .projectGallery{
@@ -20,23 +41,6 @@
     width: 100%;
     height: auto;
     padding-bottom: 5%;
-}
-
-.project{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.projectImage{
-    height: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    filter: brightness(90%);
-    cursor: pointer;
-    transition: all 0.5s;
 }
 
 .projectImage:hover{
