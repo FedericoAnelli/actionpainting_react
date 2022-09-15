@@ -2,13 +2,12 @@
     font-family: 'Outfit', 'sans-serif';
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
     height: 100%;
     width: 100%;
-    padding: 1% 0 3% 0;
+    padding: 0 0 3% 0;
     justify-items: center;
     align-items: center;
-    row-gap: 3%;
 }
 
 .testimonialsGallery{

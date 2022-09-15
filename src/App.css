@@ -22,7 +22,7 @@ footer{
 }
 
 .sectionNavigation{
-  padding-top: 20%;
+  padding-top: 15%;
   height: 100%;
   width: 100%;
   display: flex;
@@ -38,6 +38,10 @@ footer{
     overflow: hidden;
     display: flex;
     flex-direction: column;
+  }
+
+  .sectionNavigation{
+    padding-top: 0;
   }
 
 }
