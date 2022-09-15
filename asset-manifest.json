@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/actionpainting_react/static/css/main.cc7d5c04.css",
+    "main.css": "/actionpainting_react/static/css/main.7da69f2b.css",
     "main.js": "/actionpainting_react/static/js/main.9a5024c9.js",
     "static/js/787.bf2a3288.chunk.js": "/actionpainting_react/static/js/787.bf2a3288.chunk.js",
     "static/media/servicesImage.webp": "/actionpainting_react/static/media/servicesImage.b71d84c5966758bdc657.webp",
@@ -32,12 +32,12 @@
     "static/media/actionPaintingLogo.svg": "/actionpainting_react/static/media/actionPaintingLogo.f8e24e035c21b3d9cb2682dbc96f240d.svg",
     "static/media/logo.svg": "/actionpainting_react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/actionpainting_react/index.html",
-    "main.cc7d5c04.css.map": "/actionpainting_react/static/css/main.cc7d5c04.css.map",
+    "main.7da69f2b.css.map": "/actionpainting_react/static/css/main.7da69f2b.css.map",
     "main.9a5024c9.js.map": "/actionpainting_react/static/js/main.9a5024c9.js.map",
     "787.bf2a3288.chunk.js.map": "/actionpainting_react/static/js/787.bf2a3288.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc7d5c04.css",
+    "static/css/main.7da69f2b.css",
     "static/js/main.9a5024c9.js"
   ]
 }
