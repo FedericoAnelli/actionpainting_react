@@ -13,7 +13,7 @@
 .galleryHeader{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     height: 100%;
     color: rgb(50, 48, 49);
@@ -51,17 +51,13 @@
 
 @media (max-width: 480px) {
 
-    .galleryHeader{
-        margin-top: 10%;
-    }
-
     .ourWork{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: .05fr 1fr;
-        padding: 0;
+        grid-template-rows: .2fr 1fr;
         height: 100%;
         width: 100%;
+        row-gap: 0;
     }
 
 

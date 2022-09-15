@@ -12,21 +12,18 @@ import ContactUs from './components/ContactUs/ContactUs';
 function App() {
   return (
     <div className="App">
-      <header className='navbar'>
       <NavBar />
-      </header>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<Home />} />
-        <Route path="/aboutUs" element={<AboutUs />} />
-        <Route path="/ourServices" element={<OurServices />} />
-        <Route path="/ourWork" element={<OurWork />} />
-        <Route path="/contactUs" element={<ContactUs />} />
-        <Route path="/testimonials" element={<Testimonials />} />
-      </Routes>
-      <footer>
-        <NavBar />
-      </footer>
+        <div className='sectionNavigation'>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
+          <Route path="/aboutUs" element={<AboutUs />} />
+          <Route path="/ourServices" element={<OurServices />} />
+          <Route path="/ourWork" element={<OurWork />} />
+          <Route path="/contactUs" element={<ContactUs />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+        </Routes>
+        </div>
     </div>
   );
 }

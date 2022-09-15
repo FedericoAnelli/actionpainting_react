@@ -1,11 +1,14 @@
 .navbarGrid{
+    position: fixed;
+    top: 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 25% 75%;
     column-gap: 0;
     row-gap: 0;
-    height: 100%;
+    height: 25%;
     width: 100%;
+    z-index: 1;
 }
 
 /* Top black navbar section */
@@ -52,7 +55,7 @@
 
 /* Bottom white navbar section */
 .bottomNav{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.99);
     backdrop-filter: blur(10px);
     height: 100%;
     width: 100%;
@@ -115,6 +118,14 @@
 
 
 @media (max-width: 480px) {
+
+    .navbarGrid{
+        position: fixed;
+        bottom: 0;
+        top: inherit;
+        height: 8%;
+        width: 100%;
+    }
 
     .bottomNavTexts{
         display: grid;

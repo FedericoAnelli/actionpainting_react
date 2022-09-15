@@ -148,7 +148,8 @@
 
 @media (max-width: 480px) {
     .contactUs{
-        grid-template-rows: .6fr 4fr;
+        grid-template-rows: 1fr 4fr;
+        align-items: center;
     }
 
     .headingText{
