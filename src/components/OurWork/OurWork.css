@@ -46,3 +46,30 @@
 .projectImage:hover{
     filter: brightness(100%);
 }
+
+/* Mobile */
+
+@media (max-width: 480px) {
+
+    .ourWork{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .05fr 1fr;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .projectGallery{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+        column-gap: 0%;
+        row-gap: 0%;
+        width: 100%;
+        height: auto;
+        padding-bottom: 5%;
+        overflow: scroll;
+    }
+}
