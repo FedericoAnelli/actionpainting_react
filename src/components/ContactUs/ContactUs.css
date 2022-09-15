@@ -1,0 +1,19 @@
+/* Contact Us main grid */
+.contactUs{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    color: rgb(50, 48, 49);
+    font-family: 'Outfit', 'sans-serif';
+    font-size: large;
+    user-select: none;
+    padding: 5%;
+}
+
+.headingText{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}

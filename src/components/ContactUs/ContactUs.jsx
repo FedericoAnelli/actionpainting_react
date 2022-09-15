@@ -4,7 +4,15 @@ const ContactUs = () => {
 
     return (
         <div className="contactUs">
-            <p>Contact Us</p>
+            <div className="headingText">
+                <h2>Hello there!</h2>
+                <br />
+                <p>Feel free to contact us with any questions or concerns you may have.</p>
+            </div>
+            <div>
+
+            </div>
+
         </div>
     );
 }
