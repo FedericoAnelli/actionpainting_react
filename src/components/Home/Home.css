@@ -1,0 +1,36 @@
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../media/images/backgroundHomescreen.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', 'sans-serif';
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+
+.buttonContactUs{
+    background-color: rgb(241, 199, 68);
+    height: 10%;
+    width: 20%;
+    border-radius: 12px;
+    color: rgb(50, 48, 49);
+    font-family: 'Outfit', 'sans-serif';
+    font-weight: 500;
+    font-size: x-large;
+    border: none;
+    margin: 3%;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.buttonContactUs:hover{
+    transform: scale(1.1);
+}

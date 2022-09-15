@@ -1,14 +1,10 @@
-/* Full navbar container */
-.navbar{
-    position: sticky;
-    top: 0;
-    z-index: 1;
+.navbarGrid{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 25% 75%;
     column-gap: 0;
     row-gap: 0;
-    height: 20vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -18,7 +14,8 @@
     height: 100%;
     width: 100%;
     font-family: 'Outfit', 'sans-serif';
-    font-size: small;
+    font-size: medium;
+    user-select: none;
 }
 
 .topNavUl{
@@ -34,12 +31,76 @@
 }
 
 .topNavTexts{
-   color: white; 
+   color: white;
+   display: flex;
+   align-items: center;
+   font-weight: 300;
 }
+
+.topNavAddress{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+ }
 
 /* Bottom white navbar section */
 .bottomNav{
     background-color: white;
     height: 100%;
     width: 100%;
+    font-family: 'Outfit', 'sans-serif';
+}
+
+.bottomNavUl{
+    list-style: none;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 3fr repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5% 0 0;
+}
+
+.bottomNavTexts{
+    color: rgb(50, 48, 49);
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    transition: all 0.5s;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+ }
+
+ .bottomNavTexts:hover{
+    background-color: rgb(241, 199, 68);
+ }
+
+/* Logo */
+
+.logo{
+    height: 100%;
+    width: 80%;
+}
+
+.bottomNavLogo{
+    color: rgb(50, 48, 49);;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+ }
+
+/* ************** MOBILE ************* */
+
+
+@media (max-width: 480px) {
+
+
+    
+
 }
