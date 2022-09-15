@@ -1,0 +1,44 @@
+.ourWork{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .5fr;
+    height: 100%;
+    width: 100%;
+    justify-items: start;
+    padding: 5%;
+    row-gap: 3%;
+    font-family: 'Outfit', 'sans-serif';
+}
+
+/* Image Gallery */
+.projectGallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 0%;
+    row-gap: 0%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+
+.project{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectImage{
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    filter: brightness(90%);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.projectImage:hover{
+    filter: brightness(100%);
+}
