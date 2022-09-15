@@ -1,0 +1,45 @@
+/* Full navbar container */
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 75%;
+    column-gap: 0;
+    row-gap: 0;
+    height: 20vh;
+    width: 100%;
+}
+
+/* Top black navbar section */
+.topNav{
+    background-color: rgb(50, 48, 49);
+    height: 100%;
+    width: 100%;
+    font-family: 'Outfit', 'sans-serif';
+    font-size: small;
+}
+
+.topNavUl{
+    list-style: none;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.topNavTexts{
+   color: white; 
+}
+
+/* Bottom white navbar section */
+.bottomNav{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
