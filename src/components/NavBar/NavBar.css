@@ -109,9 +109,52 @@
 /* ************** MOBILE ************* */
 
 
+.mobileLogos{
+    display: none;
+}
+
+
 @media (max-width: 480px) {
 
+    .bottomNavTexts{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
 
-    
+    .bottomNavUl{
+        padding: 0;
+    }
+
+    .mobileLogos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbarGrid{
+        grid-template-rows: 100%;
+    }
+
+    .bottomNavLogo{
+        display: none;
+    }
+
+    .bottomNavUl{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .bottomNav{
+        font-size: xx-small;
+    }
+
+    .topNav{
+        display: none;
+    }
 
 }
