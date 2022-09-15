@@ -8,9 +8,9 @@ const NavBar = () => {
         <nav className="navbarGrid">
             <div className="topNav">
                 <ul className="topNavUl">
-                    <li className="topNavTexts"><span className="material-symbols-outlined">smartphone</span><strong>Commercial:</strong> 954-436-8899 |<strong>Residential:</strong> 954-901-9025</li>
-                    <li className="topNavTexts"><span className="material-symbols-outlined">mail</span> actionpainting1@att.net</li>
-                    <li className="topNavAddress"><span className="material-symbols-outlined">location_on</span><strong>5200 SW 164th Terrace South West Ranches, FL 33331</strong></li>
+                    <li className="topNavTexts"><span className="material-symbols-outlined iconSpacing">smartphone</span><strong>Commercial:</strong> 954-436-8899 |<strong>Residential:</strong> 954-901-9025</li>
+                    <li className="topNavTexts"><span className="material-symbols-outlined iconSpacing">mail</span> <strong> actionpainting1@att.net </strong></li>
+                    <li className="topNavAddress"><span className="material-symbols-outlined iconSpacing">location_on</span><strong>5200 SW 164th Terrace South West Ranches, FL 33331</strong></li>
                 </ul>
             </div>
             <div className="bottomNav">

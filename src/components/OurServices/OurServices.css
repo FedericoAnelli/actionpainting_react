@@ -24,6 +24,12 @@
     text-align: left;
     color: white;
     padding: 5% 0 0 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr .2fr 1fr;
+    height: 100%;
+    width: 100%;
+    align-items: center;
 }
 
 .ourServicesTitle{
@@ -32,3 +38,58 @@
     user-select: none;
 }
 
+.yellowDivisionLineServices{
+    height: 5%;
+    width: 30%;
+    background-color:  rgb(241, 199, 68);
+    margin: 5% 5% 5% 0;
+}
+
+
+/* Bottom buttons */
+.servicesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    font-family: 'Outfit', 'sans-serif';
+    font-weight: bold;
+}
+
+.cardService{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .5fr;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    user-select: none;
+    cursor: pointer;
+    padding: 5%;
+}
+
+.yellowContainer{
+    background-color: rgb(241, 199, 68);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    transition: all 0.5s;
+}
+
+.yellowContainer:hover{
+    transform: scale(1.1);
+}
+
+.iconClass{
+    height: 60%;
+    width: 100%;
+}
