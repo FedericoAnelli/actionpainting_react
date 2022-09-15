@@ -28,13 +28,14 @@ footer{
 
   .App{
     height: 100vh;
+    overflow: hidden;
   }
 
   footer{
-    position: absolute;
+    position: sticky;
     bottom: 0;
     display: flex;
-    height: 12%;
+    height: 10%;
     width: 100%;
   }
 

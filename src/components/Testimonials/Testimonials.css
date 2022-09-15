@@ -42,3 +42,51 @@
     filter: brightness(100%);
     transform: scale(1.1);
 }
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+    .testimonials{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .4fr 4fr;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .testimonialsGallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        column-gap: 0%;
+        row-gap: 0%;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        background-color: rgb(50, 48, 49);
+        overflow: scroll;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .testimonial{
+        width: 50%;
+        height: auto;
+    }
+
+    .testimonialImage{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        filter: brightness(90%);
+        transition: all 0.5s;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    .testimonialImage:hover{
+        filter: brightness(100%);
+        transform: scale(1.1);
+    }
+}
