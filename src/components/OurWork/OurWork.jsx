@@ -518,9 +518,7 @@ const OurWork = () => {
                 {images.map((image) => {
                     if (image.type === type) {
                         return (
-
                                 <GalleryImage src={image.src} alt={image.alt} key={image.id} />
-
                         );
                     }
                 }

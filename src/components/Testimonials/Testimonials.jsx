@@ -5,6 +5,7 @@ import testimonials2 from "../../media/images/testimonials_Logos/testimonials2.w
 import testimonials3 from "../../media/images/testimonials_Logos/testimonials3.webp";
 import testimonials4 from "../../media/images/testimonials_Logos/testimonials4.webp";
 import testimonials5 from "../../media/images/testimonials_Logos/testimonials5.webp";
+import { motion } from "framer-motion";
 
 const Testimonials = () => {
 
@@ -41,9 +42,13 @@ const Testimonials = () => {
             <h2>Testimonials</h2>
             <div className="testimonialsGallery">
                 {testimonials.map((testimonial) => (
-                    <div className="testimonial" key={testimonial.id}>
+                    <motion.div className="testimonial" key={testimonial.id}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.8 }}
+                    exit={{ opacity: 0 }}>
                         <img className="testimonialImage" src={testimonial.src} alt="Testimonial" />
-                    </div>
+                    </motion.div>
                 ))}
             </div>
         </div>
