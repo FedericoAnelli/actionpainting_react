@@ -109,10 +109,11 @@
 .contactUsInput{
     font-family: 'Outfit', 'sans-serif';
     width: 100%;
-    height: 50%;
+    height: 100%;
     border: 1px solid rgb(50, 48, 49);
     background-color: rgb(50, 48, 49);
     padding: 5%;
+    color: white;
 }
 
 .contactUsButton{
