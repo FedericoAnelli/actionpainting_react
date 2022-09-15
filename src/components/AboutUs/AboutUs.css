@@ -107,16 +107,17 @@
         align-items: center;
         justify-content: center;
         line-height: 0.59;
+        width: 100%;
     }
 
     .years{
         color: rgb(241, 199, 68);
-        font-size: 15vh;
+        font-size: 14vh;
         font-weight: 900;
     }
 
     .experience{
-        font-size: xx-large;
+        font-size: x-large;
         line-height: 1;
     }
 

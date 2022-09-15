@@ -51,6 +51,10 @@
 
 @media (max-width: 480px) {
 
+    .galleryHeader{
+        margin-top: 10%;
+    }
+
     .ourWork{
         display: grid;
         grid-template-columns: 1fr;

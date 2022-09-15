@@ -42,8 +42,8 @@ const ContactUs = () => {
                     <div className="phoneNumbers">
                         <div  className="yellowCircleBack"><span className="material-symbols-outlined">smartphone</span></div>
                         <div className="phones">
-                        <p><strong>Commercial:</strong> 954-436-8899</p>
-                        <p><strong>Residential:</strong> 954-901-9025</p>
+                        <p><strong>Commercial:</strong> <a href="tel:954-436-8899">954-436-8899</a> </p>
+                        <p><strong>Residential:</strong> <a href="tel:954-901-9025">954-901-9025</a> </p>
                         </div>
                     </div>
                     <div className="generalText"><div className="yellowCircleBack"><span className="material-symbols-outlined">location_on</span></div><p>5200 SW 164th Terrace South West Ranches, FL 33331</p></div>
