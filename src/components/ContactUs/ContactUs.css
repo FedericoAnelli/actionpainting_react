@@ -12,8 +12,133 @@
     padding: 5%;
 }
 
+/* Header and description */
 .headingText{
     display: flex;
     flex-direction: column;
     text-align: left;
+}
+
+/* Content area */
+.contactOptions{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 2%;
+}
+
+/* Contact info */
+.contactInfo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr) 5fr;
+    row-gap: 3%;
+    height: 100%;
+    width: 100%;
+
+}
+
+.generalText{
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 2%;
+    text-align: left;
+    justify-items: start;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    width: 100%;
+    height: 100%;
+}
+
+.phoneNumbers{
+    text-align: left;
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 2%;
+    justify-items: start;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    width: 100%;
+    height: 100%;
+}
+
+.yellowCircleBack{
+    background-color: rgb(241, 199, 68);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleMaps{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Contact form */
+.contactForm{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .5fr .5fr 2fr .5fr;
+    row-gap: 1%;
+    column-gap: 1%;
+    align-items: center;
+}
+
+.commentsArea{
+    font-family: 'Outfit', 'sans-serif';
+    grid-column: 2 span;
+    background-color: rgb(50, 48, 49);
+    padding: 2.5%;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.contactUsInput{
+    font-family: 'Outfit', 'sans-serif';
+    width: 100%;
+    height: 50%;
+    border: 1px solid rgb(50, 48, 49);
+    background-color: rgb(50, 48, 49);
+    padding: 5%;
+}
+
+.contactUsButton{
+    grid-column: 2 span;
+    font-family: 'Outfit', 'sans-serif';
+    width: 30%;
+    height: 80%;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(241, 199, 68);
+    font-size: large;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    justify-self: flex-end;
+    transition: all 0.5s;
+}
+
+.contactUsButton:hover{
+    background-color: rgb(4, 92, 10);
+    color: white;
+}
+
+.contactUsButton:active{
+    transform: scale(0.9);
 }
