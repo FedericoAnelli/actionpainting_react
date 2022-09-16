@@ -1,6 +1,7 @@
 import "./OurWork.css";
 import { useState, useEffect } from "react";
 import GalleryImage from "../GalleryImage/GalleryImage";
+import { motion } from "framer-motion";
 import project0 from "../../media/images/projectGallery_apartmentCondominium/project0.webp";
 import project1 from "../../media/images/projectGallery_apartmentCondominium/project1.webp";
 import project2 from "../../media/images/projectGallery_apartmentCondominium/project2.webp";
@@ -511,7 +512,10 @@ const OurWork = () => {
         <div className="ourWork">
             <div className="galleryHeader">
             {type === "Apartment Condominium" ? null : <span className="material-symbols-outlined arrowStyling" onClick={(e) => handleClick(e)}> arrow_back </span>}
-            <h2>{type}</h2>
+            <motion.h2  initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.8 }}
+                        exit={{ opacity: 0 }}>{type}</motion.h2>
             {type === "Concrete Restoration" ? null : (<span className="material-symbols-outlined arrowStyling" onClick={(e) => handleClick(e)}> arrow_forward </span>)}
             </div>
             <div className="projectGallery">
