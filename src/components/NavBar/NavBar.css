@@ -6,7 +6,7 @@
     grid-template-rows: 25% 75%;
     column-gap: 0;
     row-gap: 0;
-    height: 25%;
+    height: 20%;
     width: 100%;
     z-index: 1;
 }
