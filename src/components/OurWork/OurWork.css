@@ -36,8 +36,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 0%;
-    row-gap: 0%;
+    column-gap: 1%;
+    row-gap: 1%;
     width: 100%;
     height: auto;
     padding-bottom: 5%;

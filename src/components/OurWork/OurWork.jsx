@@ -1,5 +1,5 @@
 import "./OurWork.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import GalleryImage from "../GalleryImage/GalleryImage";
 import { motion } from "framer-motion";
 import project0 from "../../media/images/projectGallery_apartmentCondominium/project0.webp";
@@ -71,7 +71,6 @@ import concrete12 from "../../media/images/projectGallery_concrete/concrete12.we
 
 const OurWork = () => {
     const [type, setType] = useState("Apartment Condominium");
-    const [project, setProject] = useState([]);
     
     const images = [
         {
@@ -469,42 +468,18 @@ const OurWork = () => {
 
 
     const handleClick = (e) => {
-        if (e.target.innerText === "arrow_forward");
-        {
-            if (type === "Apartment Condominium") {
-                setType("Multi-Unit Residential Building");
-            }
-            if (type === "Multi-Unit Residential Building") {
-                setType("Retail");
-            }
-            if (type === "Retail") {
-                setType("Warehouses");
-            }
-            if (type === "Warehouses") {
-                setType("Residential");
-            }
-            if (type === "Residential") {
-                setType("Concrete Restoration");
-            }
-        } 
-
+        if (type === "Apartment Condominium") setType("Multi-Unit Residential Building");
+        if (type === "Multi-Unit Residential Building") setType("Retail");
+        if (type === "Retail") setType("Warehouses");
+        if (type === "Warehouses") setType("Residential");
+        if (type === "Residential") setType("Concrete Restoration");    
         if (e.target.innerText === "arrow_back")
         {
-            if (type === "Multi-Unit Residential Building") {
-                setType("Apartment Condominium");
-            }
-            if (type === "Retail") {
-                setType("Multi-Unit Residential Building");
-            }
-            if (type === "Warehouses") {
-                setType("Retail");
-            }
-            if (type === "Residential") {
-                setType("Warehouses");
-            }
-            if (type === "Concrete Restoration") {
-                setType("Residential");
-            }
+            if (type === "Multi-Unit Residential Building") setType("Apartment Condominium");
+            if (type === "Retail") setType("Multi-Unit Residential Building");
+            if (type === "Warehouses") setType("Retail");
+            if (type === "Residential") setType("Warehouses");
+            if (type === "Concrete Restoration") setType("Residential");
         }
     }
 
