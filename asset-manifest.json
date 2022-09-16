@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.938af5e9.css",
-    "main.js": "/static/js/main.76e55801.js",
+    "main.js": "/static/js/main.338e8305.js",
     "static/js/787.bf2a3288.chunk.js": "/static/js/787.bf2a3288.chunk.js",
     "static/media/servicesImage.webp": "/static/media/servicesImage.b71d84c5966758bdc657.webp",
     "static/media/project14.webp": "/static/media/project14.a8e642c0571bb9b9f334.webp",
@@ -70,12 +70,18 @@
     "static/media/testimonials0.webp": "/static/media/testimonials0.5f0c7fbe7129ea19831a.webp",
     "static/media/warehouse7.webp": "/static/media/warehouse7.fd72d59e5a3674c67c4c.webp",
     "static/media/warehouse4.webp": "/static/media/warehouse4.fb6cafc0b4f9a2c462ea.webp",
+    "static/media/bonneVie.webp": "/static/media/bonneVie.28db3b38f92393953e6f.webp",
+    "static/media/miamiBeachMarina.webp": "/static/media/miamiBeachMarina.7b1acb07d6afa8302272.webp",
+    "static/media/ckTest.webp": "/static/media/ckTest.0e4fb1b7e2c9dd89129c.webp",
     "static/media/residential5.webp": "/static/media/residential5.9de57ede1426a3242e3e.webp",
     "static/media/testimonials4.webp": "/static/media/testimonials4.295a6bb9328dd4b1fb9c.webp",
     "static/media/testimonials5.webp": "/static/media/testimonials5.1b512623ede0b30f9667.webp",
+    "static/media/sherwinWilliams.webp": "/static/media/sherwinWilliams.1a2fdf6b9a9aa5a02f99.webp",
     "static/media/retail5.webp": "/static/media/retail5.a747318cf999391d498f.webp",
     "static/media/testimonials1.webp": "/static/media/testimonials1.2bfc0de5814e75b2d327.webp",
     "static/media/testimonials2.webp": "/static/media/testimonials2.84ed7f9c1254e0930d39.webp",
+    "static/media/simonLyons.webp": "/static/media/simonLyons.f345528eb2eede4d7143.webp",
+    "static/media/streamLine.webp": "/static/media/streamLine.208e2c61e3436634124c.webp",
     "static/media/warehouse1.webp": "/static/media/warehouse1.f1d942c560ce3df24126.webp",
     "static/media/warehouse9.webp": "/static/media/warehouse9.c1a961a938e04db14502.webp",
     "static/media/actionPaintingLogo.svg": "/static/media/actionPaintingLogo.f8e24e035c21b3d9cb2682dbc96f240d.svg",
@@ -85,11 +91,11 @@
     "static/media/residentialPainting.svg": "/static/media/residentialPainting.40ebf67abc59e2b284c0c0a27f02c6c0.svg",
     "index.html": "/index.html",
     "main.938af5e9.css.map": "/static/css/main.938af5e9.css.map",
-    "main.76e55801.js.map": "/static/js/main.76e55801.js.map",
+    "main.338e8305.js.map": "/static/js/main.338e8305.js.map",
     "787.bf2a3288.chunk.js.map": "/static/js/787.bf2a3288.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.938af5e9.css",
-    "static/js/main.76e55801.js"
+    "static/js/main.338e8305.js"
   ]
 }
