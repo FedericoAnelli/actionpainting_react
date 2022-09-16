@@ -12,7 +12,7 @@ const GalleryImage = ({ src, alt }) => {
             imageWidth: "auto",
             showConfirmButton: false,
             showCloseButton: true,
-            background: "rgba(0, 0, 0, 0.8)"
+            background: "none",
         });
     };
 
