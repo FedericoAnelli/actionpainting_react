@@ -16,12 +16,12 @@ const NavBar = () => {
             <div className="bottomNav">
                 <ul className="bottomNavUl">
                     <li className="bottomNavLogo"><img className="logo" src={logo} alt="Action Painting Services Logo"></img></li>
-                    <li><Link className="bottomNavTexts" to="/"> <span class="material-symbols-outlined mobileLogos">home</span>HOME </Link></li>
-                    <li><Link className="bottomNavTexts" to="/aboutUs"><span class="material-symbols-outlined mobileLogos">apartment</span>ABOUT US</Link></li>
-                    <li><Link className="bottomNavTexts" to="/ourServices"><span class="material-symbols-outlined mobileLogos">format_paint</span>OUR SERVICES</Link></li>
-                    <li><Link className="bottomNavTexts" to="/ourWork"><span class="material-symbols-outlined mobileLogos">work_history</span>OUR WORK</Link></li>
-                    <li><Link className="bottomNavTexts" to="/testimonials"><span class="material-symbols-outlined mobileLogos">groups</span>TESTIMONIALS</Link></li>
-                    <li><Link className="bottomNavTexts" to="/contactUs"><span class="material-symbols-outlined mobileLogos">call</span>CONTACT US</Link></li>
+                    <li><Link className="bottomNavTexts" to="/"> <span className="material-symbols-outlined mobileLogos">home</span>HOME </Link></li>
+                    <li><Link className="bottomNavTexts" to="/aboutUs"><span className="material-symbols-outlined mobileLogos">apartment</span>ABOUT US</Link></li>
+                    <li><Link className="bottomNavTexts" to="/ourServices"><span className="material-symbols-outlined mobileLogos">format_paint</span>OUR SERVICES</Link></li>
+                    <li><Link className="bottomNavTexts" to="/ourWork/apartmentCondominium"><span className="material-symbols-outlined mobileLogos">work_history</span>OUR WORK</Link></li>
+                    <li><Link className="bottomNavTexts" to="/testimonials"><span className="material-symbols-outlined mobileLogos">groups</span>TESTIMONIALS</Link></li>
+                    <li><Link className="bottomNavTexts" to="/contactUs"><span className="material-symbols-outlined mobileLogos">call</span>CONTACT US</Link></li>
                 </ul>
             </div>
         </nav>

@@ -1,7 +1,8 @@
 import "./OurWork.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import GalleryImage from "../GalleryImage/GalleryImage";
 import { motion } from "framer-motion";
+import { useParams, useNavigate } from "react-router-dom";
 import project0 from "../../media/images/projectGallery_apartmentCondominium/project0.webp";
 import project1 from "../../media/images/projectGallery_apartmentCondominium/project1.webp";
 import project2 from "../../media/images/projectGallery_apartmentCondominium/project2.webp";
@@ -71,6 +72,8 @@ import concrete12 from "../../media/images/projectGallery_concrete/concrete12.we
 
 const OurWork = () => {
     const [type, setType] = useState("Apartment Condominium");
+    const { projectId } = useParams();
+    const navigate = useNavigate();
     
     const images = [
         {
@@ -465,23 +468,30 @@ const OurWork = () => {
         }
 
     ];
-
-
     const handleClick = (e) => {
-        if (type === "Apartment Condominium") setType("Multi-Unit Residential Building");
-        if (type === "Multi-Unit Residential Building") setType("Retail");
-        if (type === "Retail") setType("Warehouses");
-        if (type === "Warehouses") setType("Residential");
-        if (type === "Residential") setType("Concrete Restoration");    
+        if (type === "Apartment Condominium") navigate("/ourWork/multiUnitResidentialBuilding");
+        if (type === "Multi-Unit Residential Building") navigate("/ourWork/retail");
+        if (type === "Retail") navigate("/ourWork/warehouses");
+        if (type === "Warehouses") navigate("/ourWork/residential");
+        if (type === "Residential") navigate("/ourWork/concreteRestoration"); 
         if (e.target.innerText === "arrow_back")
         {
-            if (type === "Multi-Unit Residential Building") setType("Apartment Condominium");
-            if (type === "Retail") setType("Multi-Unit Residential Building");
-            if (type === "Warehouses") setType("Retail");
-            if (type === "Residential") setType("Warehouses");
-            if (type === "Concrete Restoration") setType("Residential");
+            if (type === "Multi-Unit Residential Building") navigate("/ourWork/apartmentCondominium");
+            if (type === "Retail") navigate("/ourWork/multiUnitResidentialBuilding");
+            if (type === "Warehouses") navigate("/ourWork/retail");
+            if (type === "Residential") navigate("/ourWork/warehouses");
+            if (type === "Concrete Restoration") navigate("/ourWork/residential");
         }
     }
+
+    useEffect(() => {
+        if (projectId === "multiUnitResidentialBuilding") setType("Multi-Unit Residential Building");
+        if (projectId === "apartmentCondominium") setType("Apartment Condominium");
+        if (projectId === "retail") setType("Retail");
+        if (projectId === "warehouses") setType("Warehouses");
+        if (projectId === "residential") setType("Residential");
+        if (projectId === "concreteRestoration") setType("Concrete Restoration");
+    }, [projectId]);
 
     return (
         <div className="ourWork">
@@ -497,7 +507,7 @@ const OurWork = () => {
                 {images.map((image) => {
                     if (image.type === type) {
                         return (
-                                <GalleryImage src={image.src} alt={image.alt} key={image.id} />
+                                <GalleryImage key={image.id} src={image.src} alt={image.alt} />
                         );
                     }
                 }

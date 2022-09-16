@@ -2,7 +2,7 @@ import "./GalleryImage.css";
 import Swal from "sweetalert2";
 import { motion } from "framer-motion";
 
-const GalleryImage = ({ src, alt, key }) => {
+const GalleryImage = ({ src, alt }) => {
 
     const handleClick = () => {
         Swal.fire({
@@ -18,7 +18,7 @@ const GalleryImage = ({ src, alt, key }) => {
 
 
     return (
-        <motion.div className="project" key={key}
+        <motion.div className="project" 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
