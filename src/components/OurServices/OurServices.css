@@ -160,3 +160,68 @@
         width: 100%;
     }
 }
+
+@media (max-width: 767px) {
+
+    .ourServices{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .bucketImage{
+        display: none;
+    }
+
+    .ourServicesText{
+        grid-template-columns: 1fr;
+        grid-template-rows: .1fr .1fr .1fr;
+        height: 100%;
+        width: 100%;
+        padding: 10% 5% 0 5%;
+    }
+
+    .ourServicesTitle{
+        font-size: xx-large;
+    }
+
+    .yellowDivisionLineServices{
+        height: 5%;
+        width: 30%;
+        margin: 5% 5% 5% 0;
+    }
+
+    .servicesContainer{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        width: 100%;
+    }
+
+    .cardService{
+        height: 80%;
+        width: 80%;
+        padding: 0 0 2% 0;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .yellowContainer{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .iconClass{
+        height: 60%;
+        width: 100%;
+    }
+    
+}

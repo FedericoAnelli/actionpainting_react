@@ -109,6 +109,53 @@
     font-weight: 300;
  }
 
+
+ @media (max-width: 767px) {
+
+    .navbarGrid{
+        grid-template-rows: 35% 65%;
+        height: 15%;
+    }
+
+    .topNavUl{
+        list-style: none;
+        display: grid;
+        height: 100%;
+        width: 100%;
+        grid-template-columns: 1.5fr .8fr 1.5fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottomNavTexts{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topNav{
+        background-color: rgb(50, 48, 49);
+        height: 100%;
+        width: 100%;
+        font-family: 'Outfit', 'sans-serif';
+        font-size: x-small;
+        user-select: none;
+    }
+
+    .bottomNav{
+        font-size: x-small;
+    }
+}
+
+
+
+
+
 /* ************** MOBILE ************* */
 
 
@@ -123,7 +170,7 @@
         position: fixed;
         bottom: 0;
         top: inherit;
-        height: 8%;
+        height: 15%;
         width: 100%;
     }
 

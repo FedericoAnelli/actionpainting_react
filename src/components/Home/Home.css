@@ -65,3 +65,23 @@
         font-size: large;
     }
 }
+
+@media (max-width: 767px) {
+    .home{
+        font-size: large;
+        padding: 0;
+    }
+
+    .centralText{
+        padding: 0 20% 0 20%;
+        font-size: large;
+        font-weight: 500;
+        margin: 2% 0 2% 0;
+    }
+
+    .buttonContactUs{
+        height: 7%;
+        width: 30%;
+        font-size: large;
+    }
+}

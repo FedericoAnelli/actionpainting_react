@@ -47,14 +47,28 @@
     filter: brightness(100%);
 }
 
+
+@media (max-width: 767px) {
+
+    .ourWork{
+        padding-top: 10%;
+        grid-template-rows: .05fr 1fr;
+    }
+    
+}
+
+
+
 /* Mobile */
 
 @media (max-width: 480px) {
 
     .ourWork{
+        padding-top: 0;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: .2fr 1fr;
+        grid-template-rows: .1fr 1fr;
+        padding-top: 5%;
         height: 100%;
         width: 100%;
         row-gap: 0;
