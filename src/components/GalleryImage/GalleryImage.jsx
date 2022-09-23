@@ -1,6 +1,7 @@
 import "./GalleryImage.css";
 import Swal from "sweetalert2";
 import { motion } from "framer-motion";
+import ReactImageAppear from 'react-image-appear';
 
 const GalleryImage = ({ src, alt }) => {
 
@@ -23,7 +24,7 @@ const GalleryImage = ({ src, alt }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
         exit={{ opacity: 0 }}>
-            <img className="projectImage" src={src} alt={alt} onClick={() => handleClick()} />
+            <ReactImageAppear className="projectImage" src={src} alt={alt} animation="fillIn" animationDuration=".5s" onClick={() => handleClick()} />
         </motion.div>
     );
 }

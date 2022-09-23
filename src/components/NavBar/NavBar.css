@@ -110,7 +110,7 @@
  }
 
 
- @media (max-width: 767px) {
+ @media (max-width: 768px) {
 
     .navbarGrid{
         grid-template-rows: 35% 65%;

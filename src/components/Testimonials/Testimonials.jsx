@@ -14,6 +14,7 @@ import testimonialDoc6 from "../../media/images/testimonials_Docs/bonneVie.webp"
 import Swal from 'sweetalert2';
 import { motion } from "framer-motion";
 
+
 const Testimonials = () => {
 
     const testimonials = [

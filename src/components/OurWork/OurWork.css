@@ -48,8 +48,7 @@
 }
 
 
-@media (max-width: 767px) {
-
+@media (max-width: 768px) {
     .ourWork{
         padding-top: 10%;
         grid-template-rows: .05fr 1fr;
