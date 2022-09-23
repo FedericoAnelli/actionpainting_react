@@ -44,6 +44,38 @@
     transform: scale(1.1);
 }
 
+
+@media (max-width: 767px) {
+    .testimonials{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .1fr 1fr;
+        padding: 5%;
+        height: 100%;
+        width: 100%;
+    }
+
+    .testimonialsGallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        column-gap: 0%;
+        row-gap: 0%;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        background-color: rgb(50, 48, 49);
+        overflow: scroll;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .testimonial{
+        width: 50%;
+        height: auto;
+    }
+}
+
 /* MOBILE */
 
 @media (max-width: 480px) {
