@@ -2,7 +2,7 @@
   "name": "action-painting-services",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://federicoanelli.github.io/actionpainting_react/",
+  "homepage": ".",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@testing-library/jest-dom": "^5.16.5",
